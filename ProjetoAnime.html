@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Anime</title>
+    <link rel="stylesheet" type="text/css" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/ProjetoAnime.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Recomendados</h1>
+    </header>
+    <section>
+        <div class="container">
+            <p><h3>Informe sua data de nascimento:</h3>
+            <input class="form-control form-control-lg" type="number" name="textani" id="textani">
+            </p>
+            <div class="container" id="flu">
+                <p><br>
+                    <label class="text-dark" for="mas">Recomendado por meninos</label>
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <br>
+                    <label class="text-dark" for="fem">Recomendado por meninas</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <br>
+                    <label class="text-dark" id="film" for="fil">Filmes recomendados</label> 
+                    <input type="radio" name="radsex" id="fil">
+                </p>
+                    <input class="btn btn-warning" type="button" id="button" value= "Verificar" onclick="verificar()">
+                </p>
+            </div>
+        </div>
+
+        <div id="resultado">
+
+        </div>
+        <div id="nome">
+            <p> </p>
+        </div>
+        <div id="sino">
+            <p class="lead"> </p>
+        </div>
+
+    </section>
+    <footer>
+        <p id="copy">&copy; Vitor Lins</p>
+        <script src="Public/js/jquery.js"></script>
+        <script src="Public/ProjetoAnime.js"></script>
+        <script src="Public/js/bootstrap.bundle.min.js"></script>
+    </footer>
+    
+</body>
+</html>
