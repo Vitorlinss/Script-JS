@@ -1,2 +1,2 @@
-# Script JS,
- Meu primeiro repositório
+# Script JS
+ Primeiro repositório
